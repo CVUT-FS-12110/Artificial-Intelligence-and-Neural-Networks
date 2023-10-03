@@ -1,6 +1,6 @@
 # Artificial-Intelligence-and-Neural-Networks
 Artificial Intelligence and Neural Networks Labs
-[Regression.ipynb](01-AI-Introduction%2FRegression.ipynb)
+
 ### [00 - Python Introduction](00-Python-Introduction%2FPython-Introduction.ipynb)
 Basic introduction to the Python Programming Language 
 ### [01 - AI Introduction](01-AI-Introduction)
