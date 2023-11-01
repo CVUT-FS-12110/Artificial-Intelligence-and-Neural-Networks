@@ -11,4 +11,4 @@ Basic introduction to AI, examples of three Machine Learning tasks -
 
 ### [06 - k-means Introduction](06-Clustering-intro)
 Introduction to k-means clusterign algorithm - notebook
-[tutorial](06-Clustering-intro%k_means.ipynb), 
+[tutorial](06-Clustering-intro%2Fk_means.ipynb), 
