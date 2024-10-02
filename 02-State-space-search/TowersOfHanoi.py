@@ -20,16 +20,15 @@ class ToHState:
         List of disc identifiers, default is [1, 2, 3].
     """
 
-    towers_names = ['A', 'B', 'C']
-    discs = [1, 2, 3]
-
     def __init__(
         self,
         a: List[int],
         b: List[int],
         c: List[int],
         parent: Optional['ToHState'] = None,
-        action: str = ""
+        action: str = "",
+        towers_names=None,
+        discs=None
     ):
         """
         Initializes a ToHState instance.
@@ -46,10 +45,16 @@ class ToHState:
             The parent state from which this state was derived, by default None.
         action : str, optional
             Description of the action taken to reach this state, by default "".
+        towers_names : List[str]
+            Names of the towers, default is ['A', 'B', 'C'].
+        discs : List[int]
+            List of disc identifiers, default is [1, 2, 3].
         """
         self.towers = deepcopy([a, b, c])  # State of the towers
         self.parent = parent               # Previous state
         self.action = action               # Action leading to this state
+        self.towers_names = ['A', 'B', 'C'] if towers_names is None else towers_names
+        self.discs = [1, 2, 3] if discs is None else discs
 
     def test(self) -> bool:
         """
@@ -105,7 +110,9 @@ class ToHState:
                         new_state = ToHState(
                             *new_state_towers,
                             parent=self,
-                            action=f"Move disk {move} from {self.towers_names[idx]} to {self.towers_names[available_tower]}"
+                            action=f"Move disk {move} from {self.towers_names[idx]} to {self.towers_names[available_tower]}",
+                            towers_names=self.towers_names,
+                            discs=self.discs
                         )
                         # Check if the new state is valid
                         if new_state.test():
