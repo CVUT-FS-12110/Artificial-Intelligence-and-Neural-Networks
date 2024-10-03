@@ -258,7 +258,7 @@ if __name__ == "__main__":
     solution = breadth_first_search(start, final)
     if solution:
         print('Breadth-first search solution found')
-        way = [solution] + solution.ancestors()
+        way = solution.ancestors() + [solution]
         for step in way:
             print(step)
     else:
@@ -268,8 +268,8 @@ if __name__ == "__main__":
     solution = depth_first_search(start, final)
     if solution:
         print('Depth-first search solution found')
-        way = [solution] + solution.ancestors()
-        for step in way[::-1]:
+        way = solution.ancestors() + [solution]
+        for step in way:
             print(step)
     else:
         print('Depth-first search solution not found')
