@@ -2,6 +2,6 @@ jupyter
 numpy
 pandas
 matplotlib
-tensorflow
+tensorflow[and-cuda]
 scikit-learn
 networkx
