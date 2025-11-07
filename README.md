@@ -15,4 +15,3 @@ Introduction to k-means clustering algorithm - notebook
 
 ### [08 - Data Preprocessing](08-Data-preprocessing/data_preprocessing.ipynb)) 
 See also: [Lecture slides](https://docs.google.com/presentation/d/1mFdYh_nIXf68r9mZ0f5pa6WEtTBiMGAh/edit?usp=sharing&ouid=110257199797152894121&rtpof=true&sd=true)
-g
