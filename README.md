@@ -21,6 +21,11 @@ Code is commented line by line for readers without a programming background.
 2. P vs NP ([EN](02-TSP-A%2FP_vs_NP_en.ipynb) / [CZ](02-TSP-A%2FP_vs_NP_cz.ipynb)) - growth classes overview, easy to verify vs. hard to solve: subset sum, Euler vs Hamilton, shortest vs longest path, 3-colouring exercise;
 3. A* search from games to industry ([EN](02-TSP-A%2FA_star_search_en.ipynb) / [CZ](02-TSP-A%2FA_star_search_cz.ipynb)) - tile maps, 8-puzzle, warehouse order picking (A* + TSP), road navigation, diagonal-movement exercise.
 
+### [05 - Machine Learning Introduction](05-ML-Introduction)
+Basics of machine learning (in Czech) - data and a short pandas introduction, principles (train/validation/test, underfitting and overfitting), tasks (regression, classification, clustering) and evaluation -
+[lab notebook](05-ML-Introduction%2FML_Introduction_CZ.ipynb) and
+[in-class independent work](05-ML-Introduction%2FIndependent_Work_CZ.ipynb) with editable experiments.
+
 ### [06 - k-means Introduction](06-Clustering-intro)
 Introduction to k-means clustering algorithm - notebook
 [tutorial](06-Clustering-intro%2Fk_means.ipynb), 
