@@ -26,9 +26,12 @@ Basics of machine learning - data and a short pandas introduction, principles (t
 lab notebook ([EN](05-ML-Introduction%2FML_Introduction_EN.ipynb) / [CZ](05-ML-Introduction%2FML_Introduction_CZ.ipynb)) and
 in-class independent work with editable experiments ([EN](05-ML-Introduction%2FIndependent_Work_EN.ipynb) / [CZ](05-ML-Introduction%2FIndependent_Work_CZ.ipynb)).
 
-### [06 - k-means Introduction](06-Clustering-intro)
+### [06 - Decision Trees](06-Decision-Trees)
+Decision and regression trees in a single lab ([EN](06-Decision-Trees%2FDecision_Trees_Single_Lab_EN.ipynb)) - Gini and entropy, choosing and searching splits by hand, a regression tree, a general recursive tree checked against scikit-learn, metrics and manual tuning on real data, cross-validation, grid search and pruning, bagging and gradient boosting by hand, a comparison of ensembles with logistic regression.
+
+### [07 - k-means Introduction](07-Clustering-intro)
 Introduction to k-means clustering algorithm - notebook
-[tutorial](06-Clustering-intro%2Fk_means.ipynb), 
+[tutorial](07-Clustering-intro%2Fk_means.ipynb), 
 
 ### [08 - Data Preprocessing](08-Data-preprocessing/data_preprocessing.ipynb)) 
 See also: [Lecture slides](https://docs.google.com/presentation/d/1mFdYh_nIXf68r9mZ0f5pa6WEtTBiMGAh/edit?usp=sharing&ouid=110257199797152894121&rtpof=true&sd=true)
