@@ -33,5 +33,16 @@ Decision and regression trees in a single lab ([EN](06-Decision-Trees%2FDecision
 Introduction to k-means clustering algorithm - notebook
 [tutorial](07-Clustering-intro%2Fk_means.ipynb), 
 
-### [08 - Data Preprocessing](08-Data-preprocessing/data_preprocessing.ipynb)) 
+### [08 - Data Preparation for Machine Learning](08-Data-preprocessing)
+Complete preprocessing and classification with local synthetic data,
+validation-based selection and a final test. Student notebooks contain
+assignments, hints, runnable examples and empty cells for independent work;
+worked solutions are kept locally and excluded from version control.
+
+- Main assignment: [CZ](08-Data-preprocessing/data-preprocessing-cz.ipynb) /
+  [EN](08-Data-preprocessing/data-preprocessing-en.ipynb).
+- Category, group and time-series splitting assignment:
+  [CZ](08-Data-preprocessing/data-splitting-cz.ipynb) /
+  [EN](08-Data-preprocessing/data-splitting-en.ipynb).
+
 See also: [Lecture slides](https://docs.google.com/presentation/d/1mFdYh_nIXf68r9mZ0f5pa6WEtTBiMGAh/edit?usp=sharing&ouid=110257199797152894121&rtpof=true&sd=true)
