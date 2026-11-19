@@ -45,4 +45,15 @@ worked solutions are kept locally and excluded from version control.
   [CZ](08-Data-preprocessing/data-splitting-cz.ipynb) /
   [EN](08-Data-preprocessing/data-splitting-en.ipynb).
 
+### [09 - The Perceptron and One Neuron](09-Perceptron)
+Perceptron rule, linear and logistic neuron, classification and regression metrics.
+Each part comes in Czech and English.
+
+- Educational part with interactive visualisations (Jupyter controls): [CZ](09-Perceptron/perceptron-visual-cz.ipynb) /
+  [EN](09-Perceptron/perceptron-visual-en.ipynb).
+- Practical part with independent tuning and a cost-based threshold: [CZ](09-Perceptron/perceptron-practice-cz.ipynb) /
+  [EN](09-Perceptron/perceptron-practice-en.ipynb).
+- Worked solution of the practical part: [CZ](09-Perceptron/perceptron-practice-solution-cz.ipynb) /
+  [EN](09-Perceptron/perceptron-practice-solution-en.ipynb).
+
 See also: [Lecture slides](https://docs.google.com/presentation/d/1mFdYh_nIXf68r9mZ0f5pa6WEtTBiMGAh/edit?usp=sharing&ouid=110257199797152894121&rtpof=true&sd=true)
