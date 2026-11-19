@@ -161,3 +161,6 @@ cython_debug/
 
 # Local worked solutions for lab 08
 /08-Data-preprocessing/*-solution-*.ipynb
+
+# Local notebook builders for lab 09
+/09-Perceptron/_build/
