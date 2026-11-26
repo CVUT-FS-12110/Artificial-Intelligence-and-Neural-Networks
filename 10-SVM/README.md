@@ -24,7 +24,7 @@ parametrů i prahu. Předpokládá se znalost `Pipeline` a křížové validace 
 
 Otevřete notebook v Jupyteru (JupyterLab nebo Notebook 7) s prostředím, které obsahuje `numpy`, `pandas`, `matplotlib`,
 `scikit-learn` a `ipywidgets` (ovládání edukační části). V edukační části zvolte *Run → Run All Cells*; ovládání funguje jen se spuštěným kernelem.
-Data jsou v `data/`; bez místní kopie (např. v Google Colab) praktická část vytvoří stejnou tabulku stejným generátorem, nic se nestahuje.
+Data jsou v `data/`; praktická část je načítá přímo z GitHubu (potřebuje připojení k internetu), funguje tedy i v Google Colab.
 
 ```bash
 python -m pip install jupyter ipywidgets numpy pandas matplotlib "scikit-learn>=1.4"
@@ -55,8 +55,8 @@ only after the parameters and the threshold are frozen. `Pipeline` and cross-val
 ### Running the notebooks
 
 Open the notebook in Jupyter (JupyterLab or Notebook 7) with `numpy`, `pandas`, `matplotlib`, `scikit-learn` and `ipywidgets` installed.
-In the educational part choose *Run → Run All Cells*; the controls work only with a running kernel. The data are in `data/`; without
-a local copy (e.g. in Google Colab) the practical part creates the same table with the same generator, nothing is downloaded.
+In the educational part choose *Run → Run All Cells*; the controls work only with a running kernel. The data are in `data/`; the practical
+part loads them directly from GitHub (an internet connection is needed), so it also works in Google Colab.
 
 See the [data description](data/README.md). `prepare_data.py` reproduces `data/pumps.csv`.
 
