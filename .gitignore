@@ -164,3 +164,6 @@ cython_debug/
 
 # Local notebook builders for lab 09
 /09-Perceptron/_build/
+
+# Local notebook builders for lab 10
+/10-SVM/_build/

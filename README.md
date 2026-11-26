@@ -56,4 +56,15 @@ Each part comes in Czech and English.
 - Worked solution of the practical part: [CZ](09-Perceptron/perceptron-practice-solution-cz.ipynb) /
   [EN](09-Perceptron/perceptron-practice-solution-en.ipynb).
 
+### [10 - Support Vector Machines](10-SVM)
+Maximum margin, soft margin and C, kernels and γ, scaling, ε-tube regression and one-class SVM.
+Each part comes in Czech and English.
+
+- Educational part with interactive visualisations (Jupyter controls): [CZ](10-SVM/svm-visual-cz.ipynb) /
+  [EN](10-SVM/svm-visual-en.ipynb).
+- Practical part (pump diagnostics: kernels, tuning C and γ, cost-based threshold, one-class SVM, pump-curve regression): [CZ](10-SVM/svm-practice-cz.ipynb) /
+  [EN](10-SVM/svm-practice-en.ipynb).
+- Worked solution of the practical part: [CZ](10-SVM/svm-practice-solution-cz.ipynb) /
+  [EN](10-SVM/svm-practice-solution-en.ipynb).
+
 See also: [Lecture slides](https://docs.google.com/presentation/d/1mFdYh_nIXf68r9mZ0f5pa6WEtTBiMGAh/edit?usp=sharing&ouid=110257199797152894121&rtpof=true&sd=true)
